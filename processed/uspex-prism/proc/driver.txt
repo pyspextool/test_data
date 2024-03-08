@@ -1,0 +1,35 @@
+# pyspextool batch reduction driver file for uspex observations on 2022-10-19
+# Code version 2023 Aug 12
+
+# Observational information
+INSTRUMENT = uspex
+UT_DATE = 2022-10-19
+PROGRAM = 2022B046
+OBSERVER = Theissen
+
+# Folders and files
+DATA_FOLDER = ./data
+CALS_FOLDER = ./cals
+PROC_FOLDER = ./proc
+QA_FOLDER = ./qa
+SCIENCE_FILE_PREFIX = sbd.2022B046.221019.spc.
+SPECTRA_FILE_PREFIX = spectra
+COMBINED_FILE_PREFIX = combspec
+CALIBRATED_FILE_PREFIX = calspec
+STITCHED_FILE_PREFIX = stitched
+
+# Science observations
+#	Mode	Target Type	Target Sub	Target Name	Target Prefix	Target Files	Target Flat	Target Wavecal	Std Sub	Std Name	Std Prefix	Std Files	Std Flat	Std Wavecal	Options (key=value)
+OBS_SET	Prism	fixed-ps	A-B	2010-1707	sbd.2022B046.221019.spc.	1-2	flat15-20.fits	wavecal15-20.fits	A-B	HD_193689	sbd.2022B046.221019.spc.	7-8	flat15-20.fits	wavecal15-20.fits
+
+# Lamp calibrations
+FLAT_FILE_PREFIX = sbd.2022B046.221019.flat.
+ARC_FILE_PREFIX = sbd.2022B046.221019.arc.
+CAL_SETS = 15-20
+
+# Notes
+# 
+# 
+# 
+# 
+# 
