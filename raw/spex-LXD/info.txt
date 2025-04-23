@@ -1,0 +1,7 @@
+spex LXD test data
+from 2010 Feb 2 program 
+
+object (J0338+3127): spc 6-9
+standard (HD 20995): spc 36-49
+arc: 1-2
+flat: 3-5
