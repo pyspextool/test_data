@@ -1,0 +1,40 @@
+# pyspextool batch reduction driver file for spex observations on 2/2/10
+# Code version 2025 Apr 16
+
+# Observational information
+INSTRUMENT = spex
+UT_DATE = 2/2/10
+PROGRAM = 2010A107
+OBSERVER = Knez
+
+# Folders and files
+DATA_FOLDER = ./data
+CALS_FOLDER = ./cals
+PROC_FOLDER = ./proc
+QA_FOLDER = ./qa
+SCIENCE_FILE_PREFIX = spc
+SPECTRA_FILE_PREFIX = spectra
+COMBINED_FILE_PREFIX = combspec
+CALIBRATED_FILE_PREFIX = calspec
+STITCHED_FILE_PREFIX = stitched
+
+# Science observations
+#	Mode	Target Type	Target Sub	Target Name	Target Prefix	Target Files	Target Flat	Target Wavecal	Std Sub	Std Name	Std SpT	Std B	Std V	Std Prefix	Std Files	Std Flat	Std Wavecal	Options (key=value)
+OBS_SET	LongXD1.9	fixed-ps	A-B	pers_av5_8	spc	6-35	flat1-5.fits	wavecal1-5.fits	A-B	HD20995	A0V	5.78	5.8	spc	36-45	flat1-5.fits	wavecal1-5.fits
+OBS_SET	LongXD1.9	fixed-ps	A-B	pers_cl5_cp2	spc	46-75	flat1-5.fits	wavecal1-5.fits	A-B	HD20995	A0V	5.78	5.8	spc	36-45	flat1-5.fits	wavecal1-5.fits
+OBS_SET	LongXD1.9	fixed-ps	A-B	pers_cl5_cp1	spc	76-105	flat1-5.fits	wavecal1-5.fits	A-B	HD20995	A0V	5.78	5.8	spc	106-115	flat1-5.fits	wavecal1-5.fits
+OBS_SET	LongXD1.9	fixed-ps	A-B	pers_cl4_cp2	spc	116-145	flat196-204.fits	wavecal196-204.fits	A-B	HD20995	A0V	5.78	5.8	spc	106-115	flat196-204.fits	wavecal196-204.fits
+OBS_SET	LongXD1.9	fixed-ps	A-B	pers_cl4_cp1	spc	146-159,170-185	flat196-204.fits	wavecal196-204.fits	A-B	HD20995	A0V	5.78	5.8	spc	160-169	flat196-204.fits	wavecal196-204.fits
+#OBS_SET	LongXD1.9	fixed-ps	A-B	pers_cl4_cp1	spc	170-185	flat196-204.fits	wavecal196-204.fits	A-B	HD20995	A0V	5.78	5.8	spc	160-169	flat196-204.fits	wavecal196-204.fits
+
+# Lamp calibrations
+FLAT_FILE_PREFIX = flat
+ARC_FILE_PREFIX = arc
+CAL_SETS = 1-5,196-204
+
+# Notes
+# 
+# 
+# 
+# 
+# 
