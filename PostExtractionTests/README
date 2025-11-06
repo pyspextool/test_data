@@ -1,0 +1,74 @@
+The data in the instrument-mode directories are after the extraction step.  I suggest we do the following tests for each instrument-mode data.
+
+1) combine object and then standard to create two files, e.g. cspectra1-10.fits cspectra11-20.fits (object, standard).
+
+2) Run the telluric correction in all possible modes.  There are two possible ways to run it now.  Pass cspectra1-10.fits and cspectra11-20.fits and get out a telluric corrected spectrum.  Or pass it all the individual spectra0001.fits, etc. and cspectra11-20.fits (the standard) and get out individual telluric corrected spectra.  And then there are 3 ways to do the telluric correction:  A0 V, basic, and reflectance.  
+
+
+spex-LongXD.19
+--------------
+
+Object: 200-205
+Standard: 176-189
+Standard Name: HD 7927
+
+spex-LongXD2.1
+--------------
+
+Object: 585-594
+Standard: 595-614
+Standard Name: HD 165029
+
+spex-LongXD2.3
+--------------
+
+Object: 555-564
+Standard: 565-574
+Standard Name: BS3314
+
+spex-LowRes15
+-------------
+
+Object: 17-28
+Standard: 29-40
+Standard Name: HD 101060
+
+spex-ShortXD
+------------
+
+Object: 626-635
+Standard: 636-645
+Standard Name: HD 165029
+
+uspex-LXD_Long
+--------------
+
+Object: 23-32
+Standard: 33-42
+Standard Name: HD 223352
+
+uspex-LXD_short
+---------------
+
+Object: 11-20
+Standard: 1-10
+Standard Name: HD 17778
+
+uspex-prism
+-----------
+
+Object: 1-2
+Standard: 7-8
+Standard Name: HD 223352
+
+uspex-ShortXD
+-------------
+
+Object: 1-6
+Standard: 9-16
+Standard Name: HD 222332
+
+
+
+
+
